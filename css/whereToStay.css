@@ -16,9 +16,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  font-size: 1.5rem;
-}
 .main_img {
   width: 100%;
   height: calc(100vh - 130px);
@@ -48,4 +45,9 @@ article p:first-of-type {
 .hotel_items {
   display: flex;
   justify-content: space-between;
+}
+
+article a:hover {
+  color: #c4c4c4;
+  text-decoration: underline;
 }
