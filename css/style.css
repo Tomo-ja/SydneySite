@@ -1,45 +1,50 @@
+nav{
+    background-color: #f7f7f7;
+}
 nav img{
-    max-width: 40%;
+    width: 40%;
 }
-footer{
-    background: #111;
-    height: auto;
-    width: 100vw;
-    font-family:"Open Sans";
-    padding-top: 40px;
-    color: #fff;
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin: 0 10px;
-}
-.socials a{
-    text-decoration: none;
-    color: #fff;
-}
-.socials a i {
-    font-size: 1.1rem;
-}
-.socials a:hover i{
-    color: aqua;
 
+#myVideo{
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        /* position: absolute; */
+    }
+
+footer{
+    background-color: #f7f7f7;
 }
-.footer-bottom{
-    background: #000;
-    width: 100vw;
-    padding: 20px 0;
+
+footer ul{
+    margin: 0;
+    padding: 20px;
     text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 60px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#history{
+    margin: 40px 0;
+}
+
+#history h1{
+    text-transform: uppercase;
+}
+
+#thingsToDo{
+    background-color: aliceblue;
+    padding: 40px 0;
+}
+
+#thingsToDo p{
+   padding-top: 20px;
 }
