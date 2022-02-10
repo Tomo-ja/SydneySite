@@ -1,7 +1,22 @@
 nav{
-    background-color: #f7f7f7;
+    background-color: #f7f7f7; 
+    display: flex;
+    align-items: center;
 }
-nav img{
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    border: 0;
+}
+
+nav ul li a:hover{
+    background-color: #000;
+    color: white!important;
+}
+
+nav span img{
     width: 40%;
 }
 
@@ -9,9 +24,7 @@ nav img{
         height: 100vh;
         width: 100%;
         object-fit: cover;
-        /* position: absolute; */
-    }
-.slider-frame{
+    }.slider-frame{
     overflow: hidden;
     height: 800px;
     width: 1200px;
@@ -123,3 +136,26 @@ footer{
     text-align: center;
 
 }
+#history{
+    margin: 40px 0;
+}
+
+#history h1{
+    text-transform: uppercase;
+}
+
+#thingsToDo{
+    background-color: aliceblue;
+    padding: 40px 0;
+}
+
+#thingsToDo h2{
+   text-transform: uppercase;
+   padding-bottom: 20px;
+}
+
+#thingsToDo h3{
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+ }
+
