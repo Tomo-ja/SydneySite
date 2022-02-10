@@ -17,6 +17,10 @@ nav img{
     width: 1200px;
     margin: 0 auto;
 }
+.slider-frame p{
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 /* -------slide animation------- */
 
 @-webkit-keyframes slide_animation{
@@ -112,21 +116,10 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
-#history{
-    margin: 40px 0;
-}
-
-#history h1{
-    text-transform: uppercase;
-}
 .footer-bottom{
     background: #111;
     width: 100vw;
     padding: 20px 0;
     text-align: center;
 
-}
-
-#thingsToDo p{
-   padding-top: 20px;
 }
