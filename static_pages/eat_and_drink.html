@@ -1,73 +1,112 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags ! -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/eat_and_drink.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <title>Eat and Drink</title>
   </head>
   <body>
     <header>
-        <nav>
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html"><img src="../images/logo.png" alt=""></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="where_to_stay.html">Where to Stay</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="eat_and_drink.html">Eat and Drink</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="places_to_go.html">Places to go</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More...</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
-                    </li>
+      <nav>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html"
+              ><img src="../images/logo.png" alt=""
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="where_to_stay.html">Where to Stay</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="eat_and_drink.html"
+              >Eat and Drink</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="places_to_go.html">Places to go</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >More...</a
+            >
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
-        </nav>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <div class="main_video">
-  
-      </div>
-  
-      <div class="inner">
-        <section class="history">
-          <h2>E	at and Drink</h2>
-          <p></p>
-          <p></p>
-        </section>
+      <h1>Eat and Drink</h1>
+      <div class="main_photo_food"></div>
         
-        <section class="things_to_do">
-          <article>
-            <img src="" alt="">
-            <p></p>
-          </article>
-          <article>
-            <img src="" alt="">
-            <p></p>
-          </article>			<article>
-            <img src="" alt="">
-            <p></p>
-          </article>
+        <section id="restaurants">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2>Sydney's best restaurants/bars</h2>
+                <p>
+                  There are plenty of delicious foods in Sydney. Here are some recommendations which you should definetly try. 
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <a href="https://www.quay.com.au/" target="_blank"><img
+                  src="../images/quay.jpeg"
+                  alt="resuaurant1"
+                  class="img-fluid"
+                />
+                <p>
+                  Our first recommendation would be
+                  Quay. You can enjoy
+                  fantastic meals by the water with a beautiful view of Opera House.
+                </p></a>
+              </div>
+              <div class="col-4">
+                <a href="http://barlasalut.com/" target="_blank"><img
+                  src="../images/laSalut.jpg"
+                  alt="resuaurant2"
+                  class="img-fluid"
+                />
+                <p>
+                  La Salut
+                   is a spanish wine bar locaded on the Cleveland Street. Since it opens until late at night, this place is recommended for those who want to explore our city longer.
+                  
+                </p></a>
+              </div>
+              <div class="col-4">
+                <a href="https://lolaslevel1.com.au/" target="_blank"><img src="../images/lolas2.jpg" alt="resuaurant3" class="img-fluid" />
+                <p>
+                  Are you looking for the best oyster place near Bondi beach? If so, Lola's is one of the great choices!
+                </p></a>
+              </div>
+            </div>
+          </div>
         </section>
-      </div>
     </main>
     <footer>
       <div class="footer-content">
@@ -86,8 +125,11 @@
 
     </footer>
 
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
