@@ -16,25 +16,42 @@ h2{
 h3 {
   margin-bottom: 1em;
 }
-a {
-  color: black;
-  text-decoration: none;
+
+button{
+  height: 224px;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: opacity 0.3s;
+}
+
+button:hover{
+  opacity: 0.4;
+}
+#BondiButton{
+  background-image: url('../images/bondi-beach.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#ByronButton{
+  background-image: url('../images/byron-bay.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#HarbourButton{
+  background-image: url('../images/sydney-harbour.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 article {
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
   width: 30%;
 }
-article img {
-  height: 224px;
-  border-radius: 20px;
-  margin-bottom: 2rem;
-  transition: 0.3s;
-}
-article img:hover{
-  opacity: 0.4;
-}
+
 .centered {
   z-index: -2;
   position: absolute;
