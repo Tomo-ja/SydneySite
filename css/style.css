@@ -71,10 +71,8 @@ nav span img{
     width: 100%;
 }
 footer{
-
     background: #111;
     height: auto;
-    width: 100vw;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 40px;
     color: #fff;
@@ -113,11 +111,6 @@ footer{
 .socials a:hover i{
     color: aqua;
 }
-.footer-bottom{
-    background: #000;
-    padding: 20px 0;
-    text-align: center;
-}
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
@@ -127,6 +120,11 @@ footer{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+.footer-bottom{
+    background: #111;
+    padding: 20px 0;
+    text-align: center;
 }
 #history{
     margin: 40px 0;
