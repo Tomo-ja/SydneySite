@@ -1,14 +1,21 @@
+h1 {
+  margin: 20px 0;
+}
+section {
+  margin-bottom: 40px;
+}
+
 .main_photo_food {
   width: 100%;
-  height: 600px;
+  height: calc(100vh - 140px);
   background-image: url(../images/mainFoodPhoto.jpg);
   background-size: cover;
-  margin-top: 30px;
+  background-attachment: fixed;
+  margin-bottom: 40px;
 }
 
 #restaurants h2 {
   width: 1140px;
-  margin: 0 auto;
 }
 
 #restaurants p {
@@ -24,6 +31,11 @@
   color: gray;
 }
 
+#restaurants img {
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
 #restaurants img:hover {
   opacity: 0.7;
 }
@@ -31,8 +43,4 @@
 #food-description {
   width: 1000px;
   margin: 0 auto;
-}
-
-.container {
-  margin-top: 30px;
 }

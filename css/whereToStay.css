@@ -1,11 +1,14 @@
 section {
-  margin: 40px 0;
+  margin: 0px 0px 40px 0;
 }
 img {
   width: 100%;
 }
 article {
   width: 30%;
+}
+h1 {
+  margin: 20px 0;
 }
 h3 {
   margin-bottom: 1em;
@@ -18,7 +21,7 @@ a {
 
 .main_img {
   width: 100%;
-  height: calc(100vh - 130px);
+  height: calc(100vh - 140px);
   background-image: url("../images/night_of_sydney.jpg");
   background-size: cover;
   background-position: center 25%;
