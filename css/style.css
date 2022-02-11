@@ -68,9 +68,29 @@ footer{
     font-size: 1.1rem;
     transition: color .4s ease;
 }
-.socials a:hover{
+
+.socials :nth-child(1) a:hover{
+    color: rgb(86, 86, 255);
+}
+
+.socials :nth-child(2) a:hover{
+    color: gray;
+}
+
+.socials :nth-child(3) a:hover{
+
     color: aqua;
 }
+
+.socials :nth-child(4) a:hover{
+    color: red;
+}
+
+.socials :nth-child(5) a:hover{
+    color: rgb(40, 40, 255);
+}
+
+
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
