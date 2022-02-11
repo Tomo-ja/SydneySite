@@ -39,12 +39,22 @@ article img {
 }
 
 article p:first-of-type {
-  height: 325px;
+  height: 250px;
+  overflow: scroll;
 }
 
 .hotel_items {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  article {
+    width: 100%;
+  }
+  .hotel_items {
+    display: block;
+  }
 }
 
 article a:hover {
