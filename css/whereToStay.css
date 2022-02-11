@@ -41,6 +41,10 @@ article img {
   margin-bottom: 2rem;
 }
 
+article img:hover {
+  opacity: 0.7;
+}
+
 article p:first-of-type {
   height: 250px;
   overflow: scroll;
