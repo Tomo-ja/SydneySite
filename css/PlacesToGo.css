@@ -1,35 +1,70 @@
 @charset "UTF-8";
 
 section {
-    margin: 0px 0px 40px 0;
-  }
-  img {
+  margin: 0 0 40px 0;
+}
+img {
+  width: 100%;
+}
+h1 {
+  margin: 20px 0;
+}
+h2{
+  text-align: center;
+  margin-bottom: 25px;
+}
+h3 {
+  margin-bottom: 1em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+article {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+article img {
+  height: 224px;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+article img:hover{
+  opacity: 0.4;
+}
+.centered {
+  z-index: -2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+}
+
+.places-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  article {
     width: 100%;
   }
-  article {
-    width: 30%;
+  .places-items {
+    display: block;
   }
-  h1 {
-    margin: 20px 0;
-  }
-  h2{
-      text-align: center;
-  }
-  h3 {
-    margin-bottom: 1em;
-  }
-  
-  a {
-    color: black;
-    text-decoration: none;
-  }
+}
 
 .places-to-go .text {
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
-  }
-
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+}
 #SLIDE_BG{
     width: 100%;
     height: calc(100vh - 130px);
