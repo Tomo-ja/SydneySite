@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 
     <title>Places to Go</title>
   </head>
@@ -45,86 +47,161 @@
       </nav>
   </header>
 
-    <main>
+  <!-- modal for Bondi goes here -->
+  <div class="Mymodal">
+    <div class="Mymodal-content">
+        <button class="close-Mymodal">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="title">Bondi Beach</div>
+        
+        <img src="../images/bondi-pools.jpg" alt="">
+        <p>If you’ve never heard of the “Bondi bubble”, spend one day in this bustling, beautiful blue oceanside village and you’ll soon catch on. Even to locals, this slice of heaven is a real-life wonderland. Start your day watching the sunrise paint the ocean with a gorgeous glow before cooling off in an iconic ocean pool and filling up on a scrumptious brunch with a side of ocean views. Early birds and activity seekers will love the endless array of action – that starts before the sun’s up – while cruisers can chill out browsing boutiques or relax with a drink in hand. Keep an eye out and you may even see breaching whales and surfing dolphins across the one-kilometre (0.6-mile) stretch of glorious ocean. There really is nowhere quite like Bondi.</p>
 
-      <section class="places-to-go">
-        <div class="container">
-            <h1>Places to go</h1>
-        </div>
+    </div>
+  </div>
+  <!-- end of modal for Bondi -->
 
-        <div id="SLIDE_BG"></div>
+  <!-- modal for  Byron Bay goes here -->
+  <div class="Mymodal2">
+    <div class="Mymodal2-content">
+        <button class="close-Mymodal2">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="title">Byron Bay</div>
+        <img src="../images/byron-bay-2.jpg" alt="">
+        <p>Look back a few decades and Byron Bay was known for its alternative culture, easygoing surfers and off-the-grid hippies. Now, Byron may be a bit more refined, but it’s no less beautiful. You’ll still find incredible surf breaks and tranquil yoga retreats that give a nod to Byron’s hippie history. You’ll also find newcomers including award-winning restaurants, luxurious beach houses and craft breweries. From barefoot backpackers to Hollywood celebrities, Byron Bay has retained its status as a destination for everyone. <br><br> Visitors flock to Byron Bay to stroll its beaches and surf, to scuba dive and snorkel in the protected habitat of Cape Byron Marine Park (2002), for eco cruising and kayaking, and to visit nearby quaint villages. Located about 1.2 miles (2 km) northeast of town is the historic Cape Byron Lighthouse (1901), which is within Cape Byron State Conservation Area and accessible via a 2.3-mile- (3.7-km-) loop walking track that passes through rainforest and along cliff tops. </p>
 
-        <div class="container">
-          <i><h2>Top places to visit in Sydney</h2></i>
-        </div>
+    </div>
+  </div>
+  <!-- end of modal for Byron Bay -->
 
-        <div class="text">
-            <p>A city that needs no introduction, Sydney doesn't disappoint on <b><i>WOW</i></b> factor. From its spectacular harbour, pristine coastline, vibrant culture, and picturesque surrounding rural and coastal landscape, there's no shortage of things to do and see. </p>
-        </div>
-      </section>
+  <!-- modal for Sydney Harbour goes here -->
+  <div class="Mymodal3">
+    <div class="Mymodal3-content">
+        <button class="close-Mymodal3">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="title">Sydney Harbour</div>
+        <img src="../images/Sydney-Opera-House-Harbour-Bridge.jpg" alt="">
+        <p><br> Sydney Harbour is an aquatic playground for Sydneysiders, with more than 240 kilometres (150 miles) of shoreline, punctuated by unspoiled beaches, picturesque gardens and pockets of natural bush. It is also home to some of Australia's big-name attractions, including the Sydney Opera House and Sydney Harbour Bridge. <br><br> The Sydney Opera House is located on Port Jackson (Sydney Harbour), New South Wales, Australia. Its unique use of a series of gleaming white sail-shaped shells as its roof structure makes it one of the most-photographed buildings in the world.</p>
+
+    </div>
+  </div>
+  <!-- end of modal for Sydney Harbour -->
+  <main>
+
+    <section class="places-to-go">
+      <div class="container">
+          <h1>Places to go</h1>
+      </div>
+
+      <div id="SLIDE_BG"></div>
 
       <div class="container">
-          
-        <h2>Get to know Sydney</h2>
-
-        <section class="places-items">
-
-          <article>
-            <button id="BondiButton"></button>
-            <div class="centered">Bondi Beach</div>            
-          </article>
-
-          <article>
-            <button id="ByronButton"></button>
-            <div class="centered">Byron Bay</div>            
-          </article>
-
-          <article>
-            <button id="HarbourButton"></button>
-            <div class="centered">Sydney Harbour</div>            
-          </article>
-
-          <!-- <article>
-            <img src="../images/bondi-beach.jpg" alt="">
-            <div class="centered">Bondi Beach</div>            
-          </article>
-
-          <article>
-            <img src="../images/byron-bay.jpg" alt="">
-            <div class="centered">Byron Bay</div> 
-          </article>
-
-          <article>
-            <img src="../images/sydney-harbour.jpg" alt="">
-            <div class="centered">Sydney Harbour</div> 
-          </article> -->
-
-        </section>
-
+        <i><h2>Top places to visit in Sydney</h2></i>
       </div>
 
-    </main>
-
-
-    <footer>
-      <div class="footer-content">
-        <ul class="socials">
-          <li><a href="#" class="fa fa-facebook"></a></li>
-          <li><a href="#" class="fa fa-twitter"></a></li>
-          <li><a href="#" class="fa fa-google-plus"></a></li>
-          <li><a href="https://www.youtube.com/watch?v=OrIDTJH2ZZM" target="_blank" class="fa fa-youtube"></a></li>
-          <li><a href="#" class="fa fa-linkedin-square"></a></li>
-
-        </ul>
+      <div class="text">
+          <p>A city that needs no introduction, Sydney doesn't disappoint on <b><i>WOW</i></b> factor. From its spectacular harbour, pristine coastline, vibrant culture, and picturesque surrounding rural and coastal landscape, there's no shortage of things to do and see. </p>
       </div>
-      <div class="footer-bottom">
-        <p>copyright &copy;2022 Team 1 WMAD. Designed by <span>Team 1</span></p>
-      </div>
+    </section>
 
-    </footer>
+    <div class="container">
+        
+      <h2>Get to know Sydney</h2>
+
+      <section class="places-items">
+        <article>
+          <button id="BondiButton" class="open-Mymodal"></button>
+          <div class="centered">Bondi Beach</div>            
+        </article>
+
+        <article>
+          <button id="ByronButton" class="open-Mymodal2"></button>
+          <div class="centered">Byron Bay</div>            
+        </article>
+
+        <article>
+          <button id="HarbourButton" class="open-Mymodal3"></button>
+          <div class="centered">Sydney Harbour</div>            
+        </article>
+
+        <!-- <article>
+          <img src="../images/bondi-beach.jpg" alt="">
+          <div class="centered">Bondi Beach</div>            
+        </article>
+
+        <article>
+          <img src="../images/byron-bay.jpg" alt="">
+          <div class="centered">Byron Bay</div> 
+        </article>
+
+        <article>
+          <img src="../images/sydney-harbour.jpg" alt="">
+          <div class="centered">Sydney Harbour</div> 
+        </article> -->
+
+      </section>
+
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <ul class="socials">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-google-plus"></a></li>
+        <li><a href="https://www.youtube.com/watch?v=OrIDTJH2ZZM" target="_blank" class="fa fa-youtube"></a></li>
+        <li><a href="#" class="fa fa-linkedin-square"></a></li>
+
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy;2022 Team 1 WMAD. Designed by <span>Team 1</span></p>
+    </div>
+
+  </footer>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script>
+      var btnOpen = document.querySelector('.open-Mymodal');
+      var btnClose = document.querySelector('.close-Mymodal');
+      var modal = document.querySelector('.Mymodal');
+      var toggleOpenClose = () => {
+          modal.classList.toggle('opened')
+      }
+  
+      btnOpen.addEventListener('click', toggleOpenClose);
+      btnClose.addEventListener('click', toggleOpenClose);
+
+      var btnOpen2 = document.querySelector('.open-Mymodal2');
+      var btnClose2 = document.querySelector('.close-Mymodal2');
+      var modal2 = document.querySelector('.Mymodal2');
+      var toggleOpenClose2 = () => {
+          modal2.classList.toggle('opened')
+      }
+  
+      btnOpen2.addEventListener('click', toggleOpenClose2);
+      btnClose2.addEventListener('click', toggleOpenClose2);
+
+      var btnOpen3 = document.querySelector('.open-Mymodal3');
+      var btnClose3 = document.querySelector('.close-Mymodal3');
+      var modal3 = document.querySelector('.Mymodal3');
+      var toggleOpenClose3 = () => {
+          modal3.classList.toggle('opened')
+      }
+  
+      btnOpen3.addEventListener('click', toggleOpenClose3);
+      btnClose3.addEventListener('click', toggleOpenClose3);
+  
+    </script>
+
   </body>
 </html>
