@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+section{
+    margin: 40px 0;
+
+}
+section h2{
+    margin: 20px 0;
+    padding-left: 80px;
+}
+
+
+#SLIDE_BG{
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    background-attachment: fixed;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image:url("../images/places_to_go_1.jpg");
+}
+
+@keyframes slideBg {
+    0%{
+        background-image:url("../images/places_to_go_1.jpg"), url("../images/places_to_go_2.jpg");
+    }
+    25% {
+        background-image:url("../images/places_to_go_2.jpg"), url("../images/places_to_go_3.jpg");
+    }
+    50% {
+        background-image:url("../images/places_to_go_3.jpg"), url("../images/places_to_go_4.jpeg");
+    }
+    75% {
+        background-image:url("../images/places_to_go_4.jpeg"), url("../images/places_to_go_5.jpg");
+    }
+    100% {
+        background-image:url("../images/places_to_go_5.jpg"), url("../images/places_to_go_1.jpg");
+    }
+
+}
