@@ -1,0 +1,38 @@
+.main_photo_food {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/mainFoodPhoto.jpg);
+  background-size: cover;
+  margin-top: 30px;
+}
+
+#restaurants h2 {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#restaurants p {
+  padding-top: 20px;
+}
+
+#restaurants a {
+  text-decoration: none;
+  color: black;
+}
+
+#restaurants a:hover {
+  color: gray;
+}
+
+#restaurants img:hover {
+  opacity: 0.7;
+}
+
+#food-description {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 30px;
+}
